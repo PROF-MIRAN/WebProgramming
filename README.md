@@ -168,7 +168,6 @@ GitHub의 **Commits** 메뉴에서 본인의 주차별 실습 기록을 확인�
 **Web Programming**
 
 Daegu University  
-Department of Computer & Information Engineering  
-Computer Software Major
+Devision of Computer & Information Engineering  
 
 © 2026 Web Programming
