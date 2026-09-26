@@ -1,0 +1,20 @@
+/* 1. 체크된 상태 */
+input:checked {
+    accent-color: red;
+}
+
+/* 2. 포커스를 받은 상태 */
+input:focus {
+    background-color: lightgreen;
+}
+
+/* 3. 사용 가능한 상태 */
+input:enabled {
+    border: 2px solid blue;
+}
+
+/* 4. 비활성화된 상태 */
+input:disabled {
+    background-color: lightgray;
+    color: gray;
+}
