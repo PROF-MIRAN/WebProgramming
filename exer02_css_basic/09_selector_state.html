@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>상태 선택자 예제</title>
+
+    <style>
+        /* 1. 체크된 상태 */
+        input:checked {
+            accent-color: red;
+        }
+
+        /* 2. 포커스를 받은 상태 */
+        input:focus {
+            background-color: lightgreen;
+        }
+
+        /* 3. 사용 가능한 상태 */
+        input:enabled {
+            border: 2px solid blue;
+        }
+
+        /* 4. 비활성화된 상태 */
+        input:disabled {
+            background-color: lightgray;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>회원가입</h2>
+
+    <p>
+        이름:
+        <input type="text" placeholder="이름을 입력하세요">
+    </p>
+
+    <p>
+        학번:
+        <input type="text" value="20260001" disabled>
+    </p>
+
+    <p>
+        <input type="checkbox">
+        개인정보 수집에 동의합니다.
+    </p>
+
+</body>
+</html>
