@@ -4,7 +4,11 @@
 
 .item_01 {
     float: left;
+<<<<<<< HEAD
     margin: 0 3px;
+=======
+    margin: 10 3px;
+>>>>>>> 294c246 (CSS예제: 수정된 아이템 마진)
     padding: 10px;
     border: 1px solid black;
 }
