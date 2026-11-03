@@ -6,15 +6,32 @@
     <title>DOM 선택 실습</title>
     <script>
         window.onload = function() {
-            // TODO 1. ID로 제목 선택 및 색상 변경
 
-            // TODO 2. h2 선택 및 텍스트 변경
+            // ① ID로 요소 1개 선택
+            let title = document.getElementById('title');
+            title.style.color = 'blue';
 
-            // TODO 3. class로 여러 요소 선택 및 색상 변경
+            // ② 선택자로 요소 1개 선택
+            let subtitle = document.querySelector('h2');
+            subtitle.innerHTML = 'JavaScript로 변경한 제목';
 
-            // TODO 4. name으로 여러 요소 선택 및 배경색 변경
+            // ③ 클래스명으로 여러 요소 선택
+            let items = document.getElementsByClassName('item');
+            for (let i = 0; i < items.length; i++) {
+                items[i].style.color = 'red';
+            }
 
-            // TODO 5. 모든 p 요소 선택 및 글자 굵게 변경
+            // ④ name으로 여러 요소 선택
+            let messages = document.getElementsByName('message');
+            for (let i = 0; i < messages.length; i++) {
+                messages[i].style.backgroundColor = 'yellow';
+            }
+
+            // ⑤ 선택자로 여러 요소 선택
+            let paragraphs = document.querySelectorAll('p');
+            for (let i = 0; i < paragraphs.length; i++) {
+                paragraphs[i].style.fontWeight = 'bold';
+            }
         };
     </script>
 </head>
